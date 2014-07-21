@@ -48,7 +48,6 @@ body {
 
 #quad {
   background-image: url("/img/quad.jpg");
-  background-size: cover;
   height: 600px;
 }
 
