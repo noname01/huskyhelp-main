@@ -8,8 +8,12 @@ html
       title UW Huskyhelp
   body
     .navbar(data-0='background-color:rgba(0,0,0,0); padding: 15px 0px; box-shadow: 0 0 0px black;',data-150='background-color:rgba(0,0,0,0.7); padding: 0px 0px; box-shadow: 0 0 10px black;')
-      .nav-content
-        h1(data-0='color:rgb(0,0,0);', data-70='color:rgb(255,255,255);') Huskyhelp
+      .nav-content(data-0='color:rgb(0,0,0);', data-70='color:rgb(255,255,255);')
+        h1
+          a(href='/') Huskyhelp
+        a(href='http://forum.huskyhelp.org') Forum
+        a(href='#') About
+        a(href='#') Contact
     block main
     script(type='text/javascript', src='/js/skrollr.js')
     script(type='text/javascript').
