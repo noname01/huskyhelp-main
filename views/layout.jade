@@ -6,8 +6,8 @@ html
     link(href='http://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
     block title
       title UW Huskyhelp
-  body
-    .navbar(data-0='background-color:rgba(0,0,0,0); padding: 15px 0px; box-shadow: 0 0 0px black;',data-150='background-color:rgba(0,0,0,0.7); padding: 0px 0px; box-shadow: 0 0 10px black;')
+   body#skrollr-body
+    .navbar(data-0='background-color:rgba(0,0,0,0); padding: 15px 0px; box-shadow: 0 0 0px black;',data-150='background-color:rgba(0,0,0,0.8); padding: 0px 0px; box-shadow: 0 0 6px black;')
       .nav-content(data-0='color:rgb(0,0,0);', data-70='color:rgb(255,255,255);')
         h1
           a(href='/') Huskyhelp
@@ -17,4 +17,6 @@ html
     block main
     script(type='text/javascript', src='/js/skrollr.js')
     script(type='text/javascript').
-      skrollr.init();
+      skrollr.init({
+        smoothScrolling: false
+      });
