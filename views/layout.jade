@@ -17,6 +17,9 @@ html
     block main
     script(type='text/javascript', src='/js/skrollr.js')
     script(type='text/javascript').
-      skrollr.init({
-        smoothScrolling: false
-      });
+      if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+        skrollr.init({
+          smoothScrolling: false,
+          forceHeight: false
+        });
+      };
