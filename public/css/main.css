@@ -78,6 +78,10 @@ a {
   background-image: url("/img/quad.jpg");
 }
 
+#husky, #lib, #quad {
+  background-position: center;
+}
+
 #footer {
   height: 200px;
 }
@@ -95,4 +99,10 @@ a {
 .info h2 {
   font-size: 40px;
   margin-bottom: 20px;
+}
+
+.navbar-fallback {
+  background-color: rgba(0,0,0,0.8);
+  padding: 0;
+  box-shadow: 0 0 6px black;
 }
