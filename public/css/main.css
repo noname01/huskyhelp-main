@@ -6,6 +6,7 @@
 body {
   min-width: 1000px;
   font-family: "Open Sans";
+  background-color: #4B4B4B;
 }
 
 a {
@@ -40,6 +41,8 @@ a {
 }
 
 .content {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .section {
