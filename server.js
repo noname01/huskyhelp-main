@@ -2,7 +2,7 @@
 var express = require("express");
 var app = express();
 
-app.set("view engine", "jade")
+app.set("view engine", "jade");
 
 //static middleware
 var oneDay = 86400000;
