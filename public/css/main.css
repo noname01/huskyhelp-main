@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -50,7 +50,7 @@ a {
 }
 
 .navbar .nav-content.invert {
-  color: rgb(255,255,255);
+  color: white;
 }
 
 .nav-content a {
@@ -90,7 +90,17 @@ a {
   background-image: url("/img/husky.jpg");
 }
 
-#intro, #text, #footer {
+#upcoming {
+  height: 430px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+#upcoming .container {
+  width: 1100px;
+}
+
+#text, #footer {
   height: 200px;
   padding: 50px;
   background-color: rgb(5,5,10);
@@ -159,4 +169,10 @@ a {
 
 .btn-row a:hover {
   background-color: rgba(255,255,255,0.2);
+}
+
+#footer .fa {
+  font-size: 26px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
