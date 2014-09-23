@@ -96,8 +96,13 @@ a {
   background-color: white;
 }
 
-#upcoming .container, #text .container {
+#upcoming .container{
   width: 1100px;
+}
+
+#text .container {
+  width: 100%;
+  max-width: 1100px;
 }
 
 #text, #footer {
@@ -146,6 +151,9 @@ a {
   background-color: rgba(0,0,0,0.8);
   padding: 0;
   box-shadow: 0 0 6px black;
+}
+
+.navbar-fallback a {
   color: white;
 }
 
