@@ -1,0 +1,24 @@
+extends ../layout.jade
+block title
+    title HuskyHelp | Homepage
+block main
+    .content
+        .section#husky(data-0='background-position:50% -10px;', data-800='background-position:50% 400px;')
+            .info#header-info
+                .container
+                    h2 Page Not Found
+                    p
+                        | Oooops! The requested page is not available.<br/>Please contact us if you need help.
+                    p.btn-row
+                        a(href="/") Back to Homepage
+                        a(href="http://forum.huskyhelp.org") Enter Our Forum
+                        a(href="http://blog.huskyhelp.org") See Our Blog
+        .section#footer
+            .container
+                h2 Contact us
+                p
+                    a(href='https://www.facebook.com/pages/UW-Husky-Help-Organization/'): i.fa.fa-facebook-square
+                    a(href='http://page.renren.com/601668142'): i.fa.fa-renren
+                    a(href='mailto:huskyh@uw.edu'): i.fa.fa-envelope
+                p Wechat: search "huskyhelp"
+                p 2018er QQ group: 201027080

@@ -14,7 +14,11 @@ app.get("/", function(req, res){
 });
 
 app.get("/application",function(req, res){
-   res.sendfile("./public/files/application.docx");
+  res.sendfile("./public/files/application.docx");
+});
+
+app.get("*", function(req, res){
+  res.render("notFound");
 });
 
 var server = app.listen(3000, function(){
