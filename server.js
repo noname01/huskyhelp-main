@@ -4,6 +4,8 @@ var app = express();
 
 app.set("view engine", "jade");
 
+app.use(express.favicon(__dirname + '/public/img/favicon.ico'));
+
 //static middleware
 var oneDay = 86400000;
 app.use(express.compress());
