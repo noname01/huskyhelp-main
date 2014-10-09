@@ -12,8 +12,7 @@ Website for UW Huskyhelp Org.
 - Run "node server.js" to start the node server on your machine
 
 
-## Update 10/9/2014 
-- Change the express independencies to 4.x
-- Run "npm install compression" && "npm install serve-favicon" to update packages
-- Modiified "server.js" in order to run with independencies
-- Commented out the "Office Application" button cuz time expired
+## Change Log
+### 10/9/2014 
+- update Express to 4.x
+- removed "Office Application" button
