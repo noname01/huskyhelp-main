@@ -13,7 +13,6 @@ Website for UW Huskyhelp Org.
 
 
 ## Change Log
-### Update 10/9/2014 
-- Change the express independencies to 4.x
-- Modiified "server.js" in order to run with independencies
-- Commented out the "Office Application" button cuz time expired
+### 10/9/2014 
+- update Express to 4.x
+- removed "Office Application" button
