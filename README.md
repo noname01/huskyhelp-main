@@ -16,3 +16,4 @@ Website for UW Huskyhelp Org.
 - Change the express independencies to 4.x
 - Run "npm install compression" && "npm install serve-favicon" to update packages
 - Modiified "server.js" in order to run with independencies
+- Commented out the "Office Application" button cuz time expired
