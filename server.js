@@ -1,14 +1,16 @@
 
 var express = require("express");
+var compression = require("compression");
+var favicon = require("serve-favicon");
 var app = express();
 
 app.set("view engine", "jade");
 
-app.use(express.favicon(__dirname + '/public/img/favicon.ico'));
+app.use(favicon(__dirname + '/public/img/favicon.ico'));
 
 //static middleware
 var oneDay = 86400000;
-app.use(express.compress());
+app.use(compression());
 app.use(express.static(__dirname + '/public', { maxAge: oneDay }));
 
 app.get("/", function(req, res){
