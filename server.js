@@ -1,7 +1,9 @@
 
 var express = require("express");
+
 var compression = require("compression");
 var favicon = require("serve-favicon");
+
 var app = express();
 
 app.set("view engine", "jade");
