@@ -16,3 +16,6 @@ Website for UW Huskyhelp Org.
 ### 10/9/2014 
 - update Express to 4.x
 - removed "Office Application" button
+
+### 10/13/2014
+- added "HEL ENTRANCE!" button
