@@ -19,6 +19,10 @@ app.get("/", function(req, res){
   res.render("index");
 });
 
+app.get("/hel", function(req, res){
+  res.redirect("http://students.washington.edu/huskyh/hel/")
+});
+
 app.get("/application",function(req, res){
   res.sendfile("./public/files/application.docx");
 });
