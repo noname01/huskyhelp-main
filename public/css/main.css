@@ -191,15 +191,9 @@ a {
 }
 
 #HEL {
-    font-size: 50px;
-    border: 3px solid gold;
-    color: inherit;
-    text-shadow:
-    0 0 10px #fefcc9,
-    10px -5px 15px #feec85,
-    -20px -10px 20px #ffae34,
-    20px -20px 25px #ec760c,
-    -20px -30px 30px #cd4606,
-    0 -40px 35px #973716,
-    10px -45px 40px #451b0e;
+    border: 1px solid gold;
+    color: gold;
+}
+#HEL:hover {
+    background-color: rgba(255,215,0,0.2);
 }
