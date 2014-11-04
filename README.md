@@ -19,3 +19,6 @@ Website for UW Huskyhelp Org.
 
 ### 10/13/2014
 - added "HEL ENTRANCE!" button
+
+### 11/04/2014
+- added/updated several photos
